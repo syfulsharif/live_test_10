@@ -13,7 +13,9 @@ class _HomePageViewState extends State<HomePageView> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Live Test 10'),
+        centerTitle: true,
       ),
+      body: const Placeholder(),
     );
   }
 }
