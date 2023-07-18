@@ -20,9 +20,9 @@ class _HomePageViewState extends State<HomePageView> {
       ),
       body: OrientationBuilder(builder: (context, Orientation orientation) {
         if (orientation == Orientation.landscape) {
-          return LandScapeView();
+          return const LandScapeView();
         }
-        return PortraitView();
+        return const PortraitView();
       }),
     );
   }
