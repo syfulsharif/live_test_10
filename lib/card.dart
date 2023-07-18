@@ -21,7 +21,7 @@ Card myHalfWidthCard() {
       padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 5.0),
       child: Image.network(
         'https://placehold.jp/150x150.png',
-        width: 170.0,
+        width: 300.0,
         height: 150.0,
       ),
     ),

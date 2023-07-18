@@ -12,15 +12,21 @@ class _LandScapeViewState extends State<LandScapeView> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      child: Flexible(
-          child: Row(
-        children: [
-          myHalfWidthCard(),
-          myHalfWidthCard(),
-          myHalfWidthCard(),
-          myHalfWidthCard(),
-        ],
-      )),
+      child: SizedBox(
+        width: double.infinity,
+        child: Wrap(
+          alignment: WrapAlignment.center,
+          children: [
+            myHalfWidthCard(),
+            myHalfWidthCard(),
+            myHalfWidthCard(),
+            myHalfWidthCard(),
+            myHalfWidthCard(),
+            myHalfWidthCard(),
+            myHalfWidthCard(),
+          ],
+        ),
+      ),
     );
   }
 }
